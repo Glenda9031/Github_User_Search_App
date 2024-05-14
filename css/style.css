@@ -240,6 +240,103 @@
   margin-bottom: 1rem;
 }
 
+.user-website-link a,
+.user-twitter-link a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.link-color {
+  color: var(--text-color);
+}
+
+@media (max-width: 75rem) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 53.125rem) {
+  .mobile-user-img {
+    display: block;
+  }
+
+  .user-name-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .joined-date-container {
+    padding: 0;
+  }
+
+  .user-profile-img-container {
+    display: none;
+  }
+}
+
+@media (max-width: 40.625rem) {
+  body {
+    font-size: .8125rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .search-icon {
+    margin: 0 0.5rem 0 0;
+  }
+
+  .search-area {
+    font-size: .8125rem;
+  }
+
+  .search-btn {
+    padding: .75rem;
+    font-size: .875rem;
+  }
+
+  .user-information-container {
+    padding: 1rem;
+  }
+
+  .profile-img {
+    max-height: 4.375rem;
+  }
+
+  .user-basic-detail {
+    gap: 1rem;
+  }
+
+  .user-name-container {
+    gap: 0;
+  }
+
+  .user-name {
+    font-size: 1.25rem;
+  }
+
+  .user-work-information {
+    padding: 1rem;
+    justify-content: space-around;
+  }
+
+  .repos, .followers, .following {
+    font-size: 1.125rem;
+  }
+
+  .user-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .user-links > div {
+    width: 100%;
+  }
+}
+
 
 
 
